@@ -67,7 +67,6 @@ body {
   background-color: var(--white);
 }
 
-/* Глобальне скидання відступів для заголовків та параграфів */
 h1,
 h2,
 h3,
@@ -301,6 +300,7 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 112px;
+  margin-bottom: 8px;
 }
 .item-text {
   font-size: 16px;
@@ -344,8 +344,9 @@ img {
 }
 
 .card-content {
-  padding: 32px 16px;
+  padding: 32px 16px 0 16px;
   text-align: center;
+  margin: 0;
 }
 
 .card-title {
@@ -362,7 +363,29 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  padding: auto;
+  margin-bottom: 8px;
 }
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 232px;
+  height: 40px;
+  margin: 0 auto;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.social-link {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+}
+
 /* #endregion TEAM SECTION */
 
 /* #region PORTFOLIO SECTION */
