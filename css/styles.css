@@ -511,9 +511,14 @@ img {
 
 .footer-social {
   width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .social-media-title {
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
