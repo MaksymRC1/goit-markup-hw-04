@@ -192,7 +192,7 @@ img {
 .nav-link.studio::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   border-radius: 2px;
   width: 100%;
