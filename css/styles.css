@@ -274,9 +274,7 @@ img {
 /* #endregion HERO SECTION */
 
 /* #region FEATURES SECTION */
-.features {
-  padding-bottom: 120px;
-}
+
 
 .features-list {
   display: flex;
