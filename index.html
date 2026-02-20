@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- #region HEADER -->
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -48,6 +49,7 @@
         </address>
       </div>
     </header>
+    <!-- #endregion HEADER -->
     <main>
       <section class="section hero">
         <div class="container">
@@ -62,43 +64,68 @@
           <ul class="features-list">
             <li class="features-item">
               <svg class="features-icons">
-                <use href="./images/icons.svg#icon-icon1"></use>
+                <use
+                  href="./images/icons.svg#icon-antenna"
+                  width="64"
+                  height="64"
+                ></use>
               </svg>
-              <h3 class="item-title">Strategy</h3>
-              <p class="item-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
+              <div class="item-box">
+                <h3 class="item-title">Strategy</h3>
+                <p class="item-text">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
             </li>
             <li class="features-item">
               <svg class="features-icons">
-                <use href="./images/icons.svg#icon-icon2"></use>
+                <use
+                  href="./images/icons.svg#icon-clock"
+                  width="64"
+                  height="64"
+                  viewBox="0 0 32 32"
+                ></use>
               </svg>
-              <h3 class="item-title">Punctuality</h3>
-              <p class="item-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
+              <div class="item-box">
+                <h3 class="item-title">Punctuality</h3>
+                <p class="item-text">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </div>
             </li>
             <li class="features-item">
               <svg class="features-icons">
-                <use href="./images/icons.svg#icon-icon3"></use>
+                <use
+                  href="./images/icons.svg#icon-diagram"
+                  width="64"
+                  height="64"
+                ></use>
               </svg>
-              <h3 class="item-title">Diligence</h3>
-              <p class="item-text">
-                Research and confirm brands with the strongest digital growth
-                opportunities and minimize risk.
-              </p>
+              <div class="item-box">
+                <h3 class="item-title">Diligence</h3>
+                <p class="item-text">
+                  Research and confirm brands with the strongest digital growth
+                  opportunities and minimize risk.
+                </p>
+              </div>
             </li>
             <li class="features-item">
               <svg class="features-icons">
-                <use href="./images/icons.svg#icon-icon4"></use>
+                <use
+                  href="./images/icons.svg#icon-astronaut"
+                  width="64"
+                  height="64"
+                ></use>
               </svg>
-              <h3 class="item-title">Technologies</h3>
-              <p class="item-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
+              <div class="item-box">
+                <h3 class="item-title">Technologies</h3>
+                <p class="item-text">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -118,51 +145,58 @@
               <div class="card-content">
                 <h3 class="card-title">Mark Guerrero</h3>
                 <p class="card-text">Product Designer</p>
-                <div class="social-links">
-                  <a
-                    class="social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.linkedin.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </div>
+                <!-- #region social-links -->
+                <ul class="social-links">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.twitter.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!-- #endregion social-links -->
               </div>
             </li>
 
@@ -176,51 +210,58 @@
               <div class="card-content">
                 <h3 class="card-title">Tom Ford</h3>
                 <p class="card-text">Frontend Developer</p>
-                <div class="social-links">
-                  <a
-                    class="social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.linkedin.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </div>
+                <!-- #region social-links -->
+                <ul class="social-links">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.twitter.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!-- #endregion social-links -->
               </div>
             </li>
             <li class="team-card">
@@ -233,51 +274,58 @@
               <div class="card-content">
                 <h3 class="card-title">Camila Garcia</h3>
                 <p class="card-text">Marketing</p>
-                <div class="social-links">
-                  <a
-                    class="social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.linkedin.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </div>
+                <!-- #region social-links -->
+                <ul class="social-links">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.twitter.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!-- #endregion social-links -->
               </div>
             </li>
             <li class="team-card">
@@ -290,51 +338,58 @@
               <div class="card-content">
                 <h3 class="card-title">Daniel Wilson</h3>
                 <p class="card-text">UI Designer</p>
-                <div class="social-links">
-                  <a
-                    class="social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-                  <a
-                    class="social-link"
-                    href="https://www.linkedin.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="social-icons" width="40" height="40">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </div>
+                <!-- #region social-links -->
+                <ul class="social-links">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.twitter.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <!-- #endregion social-links -->
               </div>
             </li>
           </ul>
@@ -479,48 +534,58 @@
 
           <div class="footer-social">
             <h4 class="social-media-title">Social media</h4>
-            <div class="social-links">
-              <a
-                class="social-link"
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-              <a
-                class="social-link"
-                href="https://www.twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-              <a
-                class="social-link"
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-              <a
-                class="social-link"
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </div>
+            <!-- #region social-links -->
+            <ul class="social-links">
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <!-- #endregion social-links -->
           </div>
         </div>
       </div>

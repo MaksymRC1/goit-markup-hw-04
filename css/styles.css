@@ -219,7 +219,6 @@ img {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--ocean);
-  
 }
 /* #endregion HEADER */
 
@@ -273,8 +272,7 @@ img {
   min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-primary:hover,
@@ -293,10 +291,17 @@ img {
   flex-wrap: nowrap;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+
+  background: #f4f4fd;
 }
 
 .item-title {
@@ -305,14 +310,22 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-bottom: 8px;
+  margin: 8px 0;
 }
 .features-icons {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
+  display: flex;
+
+  margin: 24px 100px;
+  height: 64px;
+  width: 64px;
+}
+.item-box {
+  align-items: start;
+  text-align: start;
+  justify-items: flex-start;
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
 }
 .item-text {
   font-size: 16px;
@@ -391,23 +404,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: var(--iris);
+  width: 40px;
+  height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons {
   fill: var(--cloud);
-  width: 40px;
-  height: 40px;
 }
 
-.social-link:hover::after,
-.social-link:focus::after {
-  fill: var(--ocean);
-  
+.social-link:hover {
+  background-color: var(--ocean);
 }
 /* #endregion TEAM SECTION */
 
@@ -442,7 +451,6 @@ img {
 }
 .portfolio-card:hover .overlay {
   transform: translateY(0);
-
 }
 .portfolio-card {
   flex-basis: calc((100% - 48px) / 3);
@@ -534,14 +542,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .social-icons {
-  fill: var(--cloud);
-  width: 40px;
-  height: 40px;
-}
-
 .footer .social-link:hover,
 .footer .social-link:focus {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 /* #endregion FOOTER */
